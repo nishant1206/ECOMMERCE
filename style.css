@@ -1,0 +1,215 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f1f2f4;
+}
+
+#topnav{
+    background-color: #fff;
+    height: 60px;
+    display: flex;
+}
+
+#logo{
+    background-image: url(Ecom.png);
+    background-size: 206px 60px;
+    height: 60px;
+    width: 205px;
+    background-repeat: no-repeat;
+}
+
+#links{
+    padding: 21px;
+}
+
+#links a{
+    padding: 22px;
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+    outline: none;
+    transition: 0.5s ease-in-out;
+}
+
+#links a:hover{
+    background-color: black;
+    color: white;
+    animation: Anim 53s linear infinite;
+    background: linear-gradient(121.19deg,rgba(133,239,49,0) 25.73%,hsla(0,0%,100%,.3) 45.27%,rgba(133,239,49,0) 62.27%), black;
+}
+
+#search{
+    width: 50%;
+}
+
+#Search_area{
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 2px solid black;
+    width: 75%;
+}
+
+#search button{
+    width: 13%;
+    padding: 12px;
+    position: relative;
+    left: -5px;
+    background-color: black;
+    color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none;
+}
+
+#search button:hover{
+    animation: Anim 53s linear infinite;
+    background: linear-gradient(121.19deg,rgba(133,239,49,0) 25.73%,hsla(0,0%,100%,.3) 45.27%,rgba(133,239,49,0) 62.27%), black;
+}
+
+#right_btn{
+    padding: 10px;
+    margin: auto;
+}
+
+#cart{
+    font-size: 38px;
+    position: relative;
+}
+
+#qty{
+    border-radius: 10px;
+    position: relative;
+    right: 33px;
+    font-size: 25px;
+    top: -13px;
+    color: white;
+}
+
+@keyframes Anim{
+    0%{
+        background-position: -5000px 0;
+    }
+    100%{
+        background-position: 5000px 0;
+    }
+}
+
+#slide_show button{
+    position: absolute;
+    top: 300px;
+    padding: 20px;
+    border: none;
+    outline: none;
+    transition: 0.5s ease-in;
+}
+
+#slide_show button:hover{
+    background-color: black;
+    color: white;
+    animation: Anim 53s linear infinite;
+    background: linear-gradient(121.19deg,rgba(133,239,49,0) 25.73%,hsla(0,0%,100%,.3) 45.27%,rgba(133,239,49,0) 62.27%), black;
+}
+
+/* #slide_show{
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 2px black;
+} */
+
+#slide_show img{
+    background-image: url(./newsroom-innovation-13th-gen-intel-core-1-feat.jpg.rendition.intel_.web_.1648.927.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    transition: 0.5s ease-in;
+}
+
+#container_products{
+    margin-top: 20px;
+    display: flex;
+    height: 20px;
+}
+
+#side_filters{
+    width: 25%;
+}
+
+#Website_products{
+    background-color: white;
+    width: 74%;
+    height: fit-content;
+    display: ruby;
+    padding: 50px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 0px 0px 3px 0px black;
+}
+
+.card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    margin: 10px;
+  }
+  
+  .card_content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .card:hover  .card_content {
+    transform: rotateY(180deg);
+  }
+  
+  .card_front, .card_back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .card_front {
+    background-image: url(./newsroom-innovation-13th-gen-intel-core-1-feat.jpg.rendition.intel_.web_.1648.927.jpg);
+    background-size: 100% 100%;
+    height: 100%;
+    height: 100%;
+    color: black;
+  }
+  
+  .card_back {
+    background-color: #000;
+    color: white;
+    transform: rotateY(180deg);
+    animation: Anim 53s linear infinite;
+    background: linear-gradient(121.19deg,rgba(133,239,49,0) 25.73%,hsla(0,0%,100%,.3) 45.27%,rgba(133,239,49,0) 0%), black;
+  }
+
+  .card_back button{
+    padding: 10px;
+    background-color: white;
+    color: black;
+    width: 90%;
+    margin-top: 10px;
+    border: none;
+    box-shadow: 0px 0px 30px -2px #565151;
+    margin-top: 30px;
+  }
+
+.image_show{
+    background-image: url(./newsroom-innovation-13th-gen-intel-core-1-feat.jpg.rendition.intel_.web_.1648.927.jpg);
+    background-size: 250px 250px;
+    height: 250px;
+    width: 250px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
