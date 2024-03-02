@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Top Navigation Bar -->
+    <div id="topnav">
+        <div id="hanburger_menu"></div>
+        <div id="logo"></div>
+        <div id="links">
+            <a href="">Home</a>
+            <a href="">Trends</a>
+            <a href="">Catogaries</a>
+            <a href="">Sale Today</a>
+            <a href="">Site Chart</a>
+        </div>
+        <div id="search">
+            <input type="search" placeholder="Enter The Product" name="" id="Search_area">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div id="right_btn">
+            <div id="cart">
+                <span><i class="fa-solid fa-cart-shopping"></i></span>
+                <span id="qty">23</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slide Show -->
+
+    <div id="slide_show">
+        <button style="border-top-right-radius: 50%;border-bottom-right-radius: 50%;" onclick="prev()"><i
+                class="fa-solid fa-caret-left"></i></button>
+        <button style="right: 0px;border-top-left-radius: 50%;border-bottom-left-radius: 50%;" onclick="next()"><i
+                class="fa-solid fa-caret-right"></i></button>
+        <img alt="">
+    </div>
+
+    <div id="container_products">
+        <div id="side_filters">
+
+        </div>
+        <div id="Website_products">
+            <div class="card">
+                <div class="card_content">
+                    <div class="card_front">
+                        <img alt="">
+                        <div id="bottom_container">
+
+                        </div>
+                        <h3 class = "price">23$</h3>
+                    </div>
+                    <div class="card_back">
+                        <h1>Hello</h1>
+                        <button>Buy</button>
+                        <button onclick="func()" class="btn" id="product1">Add to Cart</button>
+                        <label for="quantity_input">Qty:</label>
+                        <input type="number" name="" id="quantity_input">
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card_content">
+                    <div class="card_front">
+                        <img alt="">
+                        <div id="bottom_container">
+
+                        </div>
+                        <h3 class = "price">23$</h3>
+                    </div>
+                    <div class="card_back">
+                        <h1>Hello</h1>
+                        <button>Buy</button>
+                        <button onclick="func()" class="btn" id="product2"> Add to Cart</button>
+                        <label for="quantity_input">Qty:</label>
+                        <input type="number" name="" id="quantity_input">
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card_content">
+                    <div class="card_front">
+                        <img alt="">
+                        <div id="bottom_container">
+
+                        </div>
+                        <h3 class = "price">23$</h3>
+                    </div>
+                    <div class="card_back">
+                        <h1>Hello</h1>
+                        <button>Buy</button>
+                        <button onclick="func()" class="btn" id="product3">Add to Cart</button>
+                        <label for="quantity_input">Qty:</label>
+                        <input type="number" name="" id="quantity_input">
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card_content">
+                    <div class="card_front">
+                        <img alt="">
+                        <div id="bottom_container">
+
+                        </div>
+                        <h3 class = "price">23$</h3>
+                    </div>
+                    <div class="card_back">
+                        <h1>Hello</h1>
+                        <button>Buy</button>
+                        <button onclick="func()" class="btn" id="product4">Add to Cart</button>
+                        <label for="quantity_input">Qty:</label>
+                        <input type="number" name="" id="quantity_input">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="pdescr.js"></script>
+    <script src="https://kit.fontawesome.com/47e67bf4f8.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
